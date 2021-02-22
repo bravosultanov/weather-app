@@ -1,3 +1,8 @@
+// ssh-keygen -t rsa -b 4096 -C "bravosultanov"
+// ls -a -l ~/.ssh
+// eval "$(ssh-agent -s)"
+// ssh-add -K ~/.ssh/id_rsa
+
 const path = require('path')
 const express = require('express')
 const hbs = require('hbs')
